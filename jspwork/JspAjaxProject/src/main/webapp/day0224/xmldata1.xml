@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<board>
+	<data id="angel" name="이미현">
+		<subject>Hello</subject>
+		<photo>../image/10.png</photo>
+	</data>
+	
+	<data id="komi" name="안정빈">
+		<subject>Myname is komi</subject>
+		<photo>../image/01.png</photo>
+	</data>
+	
+	<data id="hhoon" name="진형훈">
+		<subject>Nice</subject>
+		<photo>../image/02.png</photo>
+	</data>
+	
+	<data id="babe" name="서슬기">
+		<subject>HappyDay</subject>
+		<photo>../image/08.png</photo>
+	</data>
+	
+	<data id="devil" name="박수호">
+		<subject>GoodDay</subject>
+		<photo>../image/05.png</photo>
+	</data>
+
+</board>
