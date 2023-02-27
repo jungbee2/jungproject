@@ -98,7 +98,7 @@ $(function(){
 	$("td.dbsave").click(function(){
 		
 		var data=$("#addform").serialize();
-		//alert(data);
+		alert(data);
 		
 		$.ajax({
 			
@@ -136,7 +136,7 @@ function list()
 		type: "get",
 		dataType: "json",
 		url: "memolistproc.jsp",
-		success: function(){
+		success: function(res){
 			//alert(res.length==0);
 			
 			var s="";
@@ -173,7 +173,7 @@ function list()
 	</div>
 	
 	<div class="memo addform">
-		<form action="addform">
+		<form id="addform">
 		<table class="table table-bordered">
 			<caption><b>메모추가</b></caption>
 				<tr>
