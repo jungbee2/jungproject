@@ -241,36 +241,35 @@ span.del {
 	//사용자함수..list
 
 	function list() {
-		$
-				.ajax({
-					type : "get",
-					dataType : "json",
-					url : "memolistproc.jsp",
-					success : function(res) {
-						//alert(res.length);
-
-						var s = "";
-						if (res.length == 0) {
-							s += "<h3 class='alert alert-info'>저장된 메모가 없습니다</h3>";
-						} else {
-							$.each(res,function(i, elt) {
-										s += "<table class='table'>";
-										s += "<tr height='100'><td>";
-										s += "<span class='writer'>작성자:"+ elt.writer+ "</span>";
-										s += "<span class='mod' num="+elt.num+">수정|</span>";
-										s += "<span class='del' num="+elt.num+">삭제</span>";
-										s += "<span class='writeday'>"+ elt.writeday+ "</span>";
-										s += "<br>";
-										s += "<pre>" + elt.content;
-										s += "<img src='"+elt.avata+"' align='right' width='80'>";
-										s += "</pre>";
-										s += "</td></tr>";
-										s += "</table><br>";
-								});
-							}
-						$("div.list").html(s);
-					}
-				});
+		$.ajax({	
+				type : "get",
+				dataType : "json",
+				url : "memolistproc.jsp",
+				success : function(res) {
+				//alert(res.length);
+				
+				var s = "";
+				if (res.length == 0) {
+				s += "<h3 class='alert alert-info'>저장된 메모가 없습니다</h3>";
+				} else {
+				$.each(res,function(i, elt) {
+				s += "<table class='table'>";
+				s += "<tr height='100'><td>";
+				s += "<span class='writer'>작성자:"+ elt.writer+ "</span>";
+				s += "<span class='mod' num="+elt.num+">수정|</span>";
+				s += "<span class='del' num="+elt.num+">삭제</span>";
+				s += "<span class='writeday'>"+ elt.writeday+ "</span>";
+				s += "<br>";
+				s += "<pre>" + elt.content;
+				s += "<img src='"+elt.avata+"' align='right' width='80'>";
+				s += "</pre>";
+				s += "</td></tr>";
+				s += "</table><br>";
+			});
+			}
+			$("div.list").html(s);
+			}
+		});
 	}
 	
 </script>
