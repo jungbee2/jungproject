@@ -21,5 +21,5 @@
 	
 	//insert
 	AjaxBoardDao dao = new AjaxBoardDao();
-	dao.insertAjaxBoard(dto);
+	dao.insertBoard(dto);
 %>
