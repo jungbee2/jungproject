@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+	margin:0 auto;
+	padding:0;
+	
+}
+
+table{
+	border:2px solid gray;
+}
+
+tr,td,th{
+	border:1px dotted green;
+}
