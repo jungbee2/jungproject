@@ -1,5 +1,7 @@
 package spring.upload.dragon;
 
+import java.util.Map;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -11,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import spring.mvc.dto.FormDto;
 
 @Controller
-//@RequestMapping("/form")
+@RequestMapping("/shop")
 public class ShopController {
 
 	//폼1으로 이동
@@ -53,4 +55,24 @@ public class ShopController {
 		return mview;
 	}
 	
+	//폼3으로 이동
+		@GetMapping("/form3")
+		public String form3()
+		{
+			return "form/form3";
+		}
+	
+
+		@PostMapping("/result3")
+		public ModelAndView result3(@RequestParam Map<String, String> map)
+		{
+			ModelAndView model= new ModelAndView();	
+			
+			model.addObject("carname", map.get("carname"));
+			model.addObject("carpay", map.get("carpay"));
+			
+			model.setViewName("form/result3");
+			
+			return model;
+		}
 }

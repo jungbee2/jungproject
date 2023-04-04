@@ -16,31 +16,41 @@
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
-<form action="upload2" method="post" enctype="multipart/form-data">
-	<table class="table table-borderd" style="width:400px;">
-		<caption><b>스프링 업로드(파일여러개)</b></caption>
+<!-- insert시 method ="post" -->
+<form action="write" method="post">
+		<table class="table table-bordered" style="width: 400px;">
+			<caption style="font-size:26px;">차정보 입력</caption>
 			<tr>
-				<th bgcolor="lightblue" width="100">제목</th>
+				<th bgcolor="pink" width="100">차종</th>
 				<td>
-				<input type="text" name="title" class="form-control"
-					style="width: 150px;">
+					<input type="text" name="carname" size="10" required="required">
 				</td>
 			</tr>
 			
 			<tr>
-				<th bgcolor="lightblue" width="100">업로드</th>
+				<th bgcolor="pink" width="100">자동차 가격</th>
 				<td>
-				<input type="file" name="photo" class="form-control"
-					style="width: 250px;" multiple="multiple">
+					<input type="text" name="carprice" size="10" required="required">
 				</td>
 			</tr>
 			
 			<tr>
-				<td colspan="2" align="center">
-					<button type="submit" class="btn btn-info">업로드#2</button>
+				<th bgcolor="pink" width="100">색상</th>
+				<td>
+					<input type="color" name="carcolor" size="10" required="required" value="#ffffcc">
 				</td>
 			</tr>
-	</table>
-</form>
+			
+			<tr>
+				<th bgcolor="pink" width="100">구입일</th>
+				<td>
+					<input type="date" name="carguip" size="10" required="required">
+				</td>
+			</tr>
+			
+		</table>
+		<button type="submit" class="btn btn-default btn-sm">DB저장</button>
+		<button type="button" class="btn btn-default btn-sm" onclick="location.href='list'">목록</button>
+	</form>
 </body>
 </html>

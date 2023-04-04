@@ -17,15 +17,11 @@
 </head>
 <body>
 <h2>제목: ${title }</h2>
-	<c:if test="${fileName=='no' }">
-		<b>업로드한 파일 없음</b>
-	</c:if>
+	<c:forEach var="im" items="${files }"> <!-- files를 변수 im으로 지정 -->
+		<img alt="" src="../photo/${im }" style="max-width:200px; border:1px solid gray;">
+	</c:forEach>
 	
-	<c:if test="${fileName!='no' }">
-		<b><img alt="" src="../photo/${fileName}" style="max-width:300px;"></b>
-	</c:if>
-	
-	<h2>업로드한 이미지명: ${fileName }</h2>
-	<h2>업로드할 실제경로: ${path }</h2>
+	<%-- <h2>업로드한 이미지명: ${fileName }</h2>
+	<h2>업로드할 실제경로: ${path }</h2> --%>
 </body>
 </html>

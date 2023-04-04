@@ -16,22 +16,7 @@
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
-	<h2>MAP읽기</h2>
-<form action="result3" method="post" style="width:300px;">
-	
-		<table class="table table-bordered"  style="width:300px;">
-		<caption><b>map 차정보</b></caption>
-			<tr>
-				<th style="width:100px;">차종</th>
-				<td><input type="text" name="carname" class="form-control input-sm"></td>
-			</tr>
-			<tr>
-				<th style="width:100px;">차가격</th>
-				<td><input type="text" name="carpay" class="form-control input-sm"></td>
-			</tr>
-		
-		</table>
-			<button type="submit" class="btn btn-default btn-sm">전송</button>
-	</form>
+	 <!-- <a href="samsung/list">리스트</a> -->
+	 <c:redirect url="samsung/list"></c:redirect>
 </body>
 </html>
