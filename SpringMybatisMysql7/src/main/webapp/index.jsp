@@ -16,7 +16,15 @@
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
-	 <!-- <a href="samsung/list">리스트</a> -->
-	 <c:redirect url="samsung/list"></c:redirect>
+	<!--   <a href="samsung/list">리스트</a> -->
+	  <button type="button" class="btn btn-info" style="width: 200px; margin:10px;" 
+	  onclick="location.href='samsung/list'">차량입고</button><br>
+	  
+	   <button type="button" class="btn btn-warning" style="width: 200px; margin:10px;"
+	  onclick="location.href='member/memberlist'">고객명단</button><br>
+	  
+	   <button type="button" class="btn btn-warning" style="width: 200px; margin:10px;"
+	  onclick="location.href='sawon/list'">사원명단</button><br>
+	<%--  <c:redirect url="samsung/list"></c:redirect> --%>
 </body>
 </html>

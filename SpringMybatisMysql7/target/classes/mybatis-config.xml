@@ -5,5 +5,10 @@
 <configuration>
 	<typeAliases><!-- 별명등록하는곳..dto가져올때 type으로 가져온다.(dto의 Type 등록) -->
 		<typeAlias alias="CarDto"  type="spring.db.car.MyCarDto"/>
+		<!--0405추가  -->
+		<typeAlias alias="CarMemberDto"  type="spring.db.member.CarMemberDto"/>
+		<!--0405추가  -->
+		<typeAlias alias="sdto"  type="sawon.data.SawonDto"/>
+	
 	</typeAliases>
 </configuration>

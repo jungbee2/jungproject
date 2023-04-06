@@ -17,7 +17,7 @@
 </head>
 <body>
 <!-- insert시 method ="post" -->
-<form action="update" method="post">
+<form action="update" method="post"> <!--맵핑주소  -->
 
 <!-- hidden  -->
 <input type="hidden" name="num" value="${dto.num }">

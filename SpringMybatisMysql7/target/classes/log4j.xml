@@ -15,6 +15,13 @@
 		<level value="info" />
 	</logger>
 	
+	<!-- -0405추가  
+	Application Loggers
+	<logger name="spring.db.member">
+		<level value="info" />
+	</logger>
+	 -->
+	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
 		<level value="info" />

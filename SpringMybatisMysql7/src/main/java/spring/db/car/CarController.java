@@ -77,7 +77,7 @@ public class CarController {
 	
 	//delete
 	@GetMapping("/samsung/delete")
-	public String delete(@RequestParam String num)
+	public String delete(@RequestParam String num) //requestparam 안해도 오류 안남.
 	{
 		dao.deleteMyCar(num);
 		return "redirect:list";
