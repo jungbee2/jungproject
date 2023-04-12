@@ -1,0 +1,69 @@
+/* BASIC css start */
+#basket .btn-wrap {padding:15px 10px;}
+#basket .btn-wrap div {width:49%; float:left;}
+#basket .btn-wrap div:last-child {float:right;}
+#basket .all-select {border-top: 1px solid #eee; border-bottom: 1px solid #eee; background-color: #fff; padding:10px;}
+#basket .not_provider li {padding:20px 0;}
+#basket .provider li {padding:20px 0;}
+#basket figure {width:100%; display: table; box-sizing: border-box; padding:0 10px;}
+#basket .basketLeft {width:110px; position:relative; float: left;}
+#basket .basketLeft a {padding-right: 20px; margin-top: 20px; display:block;}
+#basket .basketLeft .MS_input_checkbox {top:0; left:0; position:absolute;}
+#basket .basketRight {padding-left:110px;}
+#basket .basketRight p {color:#707070; margin-bottom:5px;}
+#basket .basketRight .pname {border-bottom:1px solid #dedede;  padding-bottom: 4px;}
+#basket .basketRight .pname .blue-delivery {background-color: #74a9e4; color:#fff; font-size:0.917em; padding: 1px 2px;}
+#basket .basketRight .pname .red-delivery {background-color: #d674e4; color:#fff; font-size:0.917em; padding: 1px 2px;}
+#basket .basketRight .pname .fa {float:right; margin-top: -6px;}
+#basket .basketRight .fa-plus {background-color: #bbb; width: 35px; height: 35px; text-align: center; vertical-align: middle; line-height: 35px; color: #fff;}
+#basket .basketRight .fa-minus {background-color: #bbb; width: 35px; height: 35px; text-align: center; vertical-align: middle; line-height: 35px; color: #fff;}
+#basket .basketRight .btn_Black {margin-top:5px;}
+#basket .basketRight .MS_select {width:100%;}
+#basket .basketRight .amount-input {width:50px;}
+#basket .price-each-info-top {text-align : right; border-top: 1px solid #EEE; border-bottom: 1px solid #EEE; background:#FFF; padding:10px;}
+#basket .price-each-info-bottom {text-align : right; padding:10px; background:#eaeaea; border-bottom:1px solid #cbcbcb;}
+#basket .price-total-info-top {border-top: 1px solid #DDD; border-bottom: 1px solid #EEE; background-color: #FFF; text-align : right;  padding:10px; margin-top:10px;}
+#basket .price-total-info-bottom {border-bottom: 1px solid #EEE; background-color: #FFF; text-align : right; padding:15px 10px; font-size:1.333em;}
+#basket .price-total-info-bottom .txt-price {color : #000; font-weight:bold;}
+#basket .price-total-info-bottom .txt-reserve {color : #898989; font-size:0.688em;}
+#basket .delivery-type { padding:15px 10px;}
+#basket .order-btn {padding:0 10px; margin-bottom:10px;}
+#basket .order-btn .btn_Red {background-color: #000; border: 1px solid #000;}
+#basket .naver-checkout {margin-top: 20px;}
+
+.table-cart tfoot td {
+    padding: 15
+px
+ 0;
+    font-weight: bold;
+    line-height: 20px;
+    border-top: 1
+px
+ solid #e9e9e9;
+    background: #fff;
+}
+
+@media screen and (min-width:768px) {
+ #basket .basketRight .btn_Black {width:315px; display:inline-block; vertical-align: middle; margin-top:0px;}
+}
+
+.cart-ft2 { display: block; text-align: center; }
+
+.cart-free-wrap { text-align:center; margin-bottom: 10px; }
+.cart-free-wrap .btn-list-open { display:inline-block; width:90%; height:30px; line-height:30px; background:#585858; color:#fff; font-weight:bold; font-size: .75em; text-align:center; }
+.cart-free-wrap p { padding:10px 0 15px; font-size: .75em; font-weight:bold; }
+.cart-free-wrap p span { color:#f40000; }
+.cart-free-wrap .btn-more { display:inline-block; width:94%; height:30px; line-height:30px; margin-top:10px; border:1px solid #383838; background:#fff; color:#383838; font-size: .75em; text-align:center; }
+.cart-free-wrap .btn-more span { display:inline-block; width:8px; height:5px; margin-left:5px; background:url(/images/d3/m_04/h10_arr.gif) no-repeat 0 0; background-size:100% 100%; vertical-align:middle; }
+.cart-free-wrap .list-wrap { overflow-x:hidden; padding:0 20px; margin-top:20px; display: none; }
+.cart-free-wrap .list-wrap ul { width:100%; list-style:none; }
+.cart-free-wrap .list-wrap ul:after { clear: both; content: ""; display: block; }
+.cart-free-wrap .list-wrap ul li { float:left; width:33.3333%; height:180px; font-size: .7em; list-style:none; }
+.cart-free-wrap .list-wrap ul li dl { margin:10px 10px 10px; }
+.cart-free-wrap .list-wrap ul li dl dt { height:100px; margin-bottom:13px; }
+.cart-free-wrap .list-wrap ul li dl dt img { width:100%; height:100%; }
+.cart-free-wrap .list-wrap ul li dl dd {}
+
+
+.basket-option-dlist li img { width:30px; height:30px; vertical-align:middle; }
+/* BASIC css end */

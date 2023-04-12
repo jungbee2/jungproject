@@ -1,0 +1,118 @@
+/* BASIC css start */
+/* aside */
+#aside { position:relative; overflow:hidden; border:0px solid #000 }
+#aside .aside-tit { padding:300px 0 30px; font-size:24px; color:#000; font-weight:bold; text-align:center; line-height:24px }
+/* lnb */
+#aside .lnb-wrap { 
+    width:70%;
+    background-color:#fff;
+    padding:10px;
+    border:1px solid #000;
+    overflow:hidden;
+    *zoom:1; }
+
+#aside .lnb-wrap:after { display:block; clear:both; content:'' }
+#aside .lnb-wrap .lnb-bx {
+    float:initial; 
+    width:40%; 
+    min-height:80px; 
+    overflow:hidden 
+}
+
+#aside .lnb-wrap .lnb-bx .txt { 
+    margin-top:20px; 
+    text-align: center;
+    height:15px; 
+    font-size:14px; 
+    font-weight:bold; 
+    line-height:15px; 
+    
+}
+
+#aside .lnb-wrap .lnb-bx-2 {
+    float:initial; 
+    width:40%; 
+    min-height:80px; 
+    overflow:hidden 
+}
+#aside .lnb-wrap .lnb-bx-2 .txt { 
+    margin-top:20px; 
+    text-align: center;
+    height:15px; 
+    font-size:14px; 
+    font-weight:bold; 
+    line-height:15px; 
+}
+
+#aside .lnb-wrap .lnb-bx .txt1 { background-position:0 0 }
+#aside .lnb-wrap .lnb-bx .txt2 { background-position:0 0 }
+
+#aside .lnb-wrap .lnb { overflow:hidden }
+
+#aside .lnb-wrap .lnb ul { 
+    display:table-caption;
+    padding-top:20px;
+    *zoom:1;      
+    padding-left:0px;}
+#aside .lnb-wrap .lnb ul:after { display:block; clear:both; content:'' }
+#aside .lnb-wrap .lnb ul li { display:inline-block; margin:0 10px; padding:5px 0; float:left; white-space:nowrap }
+#aside .lnb-wrap .lnb ul li a {text-align: center;  padding:0 10px; font-size:12px; color:#8d8d8d; }
+
+
+
+/*마이페이지 BASIC css start */
+#mypage { position: relative; margin: 0 auto; margin-bottom: 80px; }
+#mypage .page-body { padding-top:60px }
+
+/* 회원 정보 */
+#mypage .info { 
+    width:70%;
+    padding:30px;
+    background-color:#fff;
+    border:1px solid #e9e9e9; *zoom:1; overflow:hidden }
+#mypage .info:after { display:block; clear:both; content:'' }
+#mypage .info .user, 
+#mypage .info .order { margin:25px 0; float: left; min-height:155px }
+#mypage .info .user { 
+ position:relative; float:inherit; width:80%; }
+#mypage .info .user .user-img { 
+    position:absolute; top:7px; left:0; width:140px; height:140px;  }
+#mypage .info .user .user-img img { padding-left:30px;width:140px; height:140px }
+#mypage .info .user .user-info {    padding-left:50%;}
+#mypage .info .user .user-info p { font-size:15px; color:#202020 }
+#mypage .info .user .user-info .box { padding-top:10px }
+#mypage .info .user .user-info .box dl { padding-top:10px; *zoom:1 }
+#mypage .info .user .user-info .box dl:after { display:block; clear:both; content:'' }
+#mypage .info .user .user-info .box dl dt { float:left; width:90px; font-size:14px }
+#mypage .info .user .user-info .box dl dd { float:left; font-size:14px; color:#8d8d8d }
+#mypage .info .order { 
+    padding-left:25%; float:inherit; width:50%; }
+#mypage .info .order dt, 
+#mypage .info .order dd { padding-top:8px; float: left; font-size:14px }
+#mypage .info .order dt { width: 45%; clear: both; }
+#mypage .info .order dd { width: 50%; text-align:right; }
+#mypage .info .order dd a { font-size:14px; color:#8d8d8d }
+#mypage .info .order dd a:hover { text-decoration: underline; }
+#mypage .info .order .tot { margin-bottom:10px; font-size:15px; font-weight: bold; }
+
+/* 회원 그룹 정보 */
+#mypage .grp { margin-top:40px; font-size:16px; color:#2e2e2e; text-align: center; line-height:30px }
+#mypage .grp span { font-weight:bold }
+
+/* 타이틀 */
+#mypage .hd { position: relative; margin-top:80px }
+#mypage .hd h3 { font-size:18px; color:#2e2e2e; font-weight:bold; line-height:18px }
+#mypage .hd .view { position: absolute; top:0; right:0; color:#8c8b8b }
+
+/* 주문정보 & 등록 게시글 */
+#mypage .tbl { margin-top:10px }
+#mypage .tbl th { padding:15px 0; font-size:13px; color:#000; font-family:Verdana; font-weight:normal; border-top:1px solid #000; border-bottom:1px solid #e9e9e9 }
+#mypage .tbl td { padding:15px 0; color:#343434; border-bottom:1px solid #e9e9e9 }
+
+/* 관심상품 정보 */
+#mypage .lst { margin-top:10px; padding-top:28px; border-top:1px solid #000 }
+#mypage .lst .item-wrap .item-cont { width:1128px }
+#mypage .lst .item-wrap .item-cont .item-list { padding-right:28px; width:254px }
+#mypage .lst .item-wrap .item-cont .item-list .thumb { width:254px; height:254px }
+#mypage .lst .item-wrap .item-cont .item-list .thumb img { width:254px; height:254px }
+#mypage .lst .item-wrap .item-cont .item-list .prd-info { padding-top:13px }

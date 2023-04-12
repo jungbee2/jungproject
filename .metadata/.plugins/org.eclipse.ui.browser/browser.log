@@ -1,0 +1,273 @@
+
+2월 14, 2023 09:25:37.350 NEW SESSION
+2월 14, 2023 09:25:37.350 [37572:33096:0214/092537.347:ERROR:device_event_log_impl.cc(215)] [09:25:37.348] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 09:25:37.353 [37572:33096:0214/092537.350:ERROR:device_event_log_impl.cc(215)] [09:25:37.351] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 09:26:34.810 [37572:38392:0214/092634.808:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 14, 2023 09:38:53.142 [23256:13332:0214/093853.141:ERROR:device_event_log_impl.cc(215)] [09:38:53.142] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 09:38:53.145 [23256:13332:0214/093853.145:ERROR:device_event_log_impl.cc(215)] [09:38:53.145] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 09:39:49.691 [23256:34268:0214/093949.690:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 14, 2023 10:03:28.397 [23256:31808:0214/100328.395:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:03:28.400 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:03:28.402 ERROR: Failed parsing Certificate
+2월 14, 2023 10:03:28.404 
+2월 14, 2023 10:03:28.582 [23256:31808:0214/100328.581:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:03:28.584 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:03:28.586 ERROR: Failed parsing Certificate
+2월 14, 2023 10:03:28.587 
+2월 14, 2023 10:03:39.762 [23256:18532:0214/100339.761:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:03:39.766 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:03:39.768 ERROR: Failed parsing Certificate
+2월 14, 2023 10:03:39.771 
+2월 14, 2023 10:03:39.960 [23256:18532:0214/100339.959:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:03:39.995 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:03:39.997 ERROR: Failed parsing Certificate
+2월 14, 2023 10:03:40.00 
+2월 14, 2023 10:03:47.882 [23256:18532:0214/100347.881:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:03:47.884 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:03:47.886 ERROR: Failed parsing Certificate
+2월 14, 2023 10:03:47.888 
+2월 14, 2023 10:07:52.510 [23256:31808:0214/100752.509:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:07:52.513 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:07:52.515 ERROR: Failed parsing Certificate
+2월 14, 2023 10:07:52.517 
+2월 14, 2023 10:28:43.978 [23256:37984:0214/102843.977:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:28:43.980 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:28:43.981 ERROR: Failed parsing Certificate
+2월 14, 2023 10:28:43.985 
+2월 14, 2023 10:28:56.494 [40900:37180:0214/102856.493:ERROR:device_event_log_impl.cc(215)] [10:28:56.494] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 10:28:56.498 [40900:37180:0214/102856.498:ERROR:device_event_log_impl.cc(215)] [10:28:56.498] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 10:29:53.811 [40900:40020:0214/102953.809:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 14, 2023 10:31:55.374 [40900:37180:0214/103155.347:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 14, 2023 10:32:15.146 [40900:40704:0214/103215.145:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 10:32:15.148 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 10:32:15.151 ERROR: Failed parsing Certificate
+2월 14, 2023 10:32:15.154 
+2월 14, 2023 12:09:25.794 [34320:37096:0214/120925.794:ERROR:device_event_log_impl.cc(215)] [12:09:25.793] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 12:09:25.798 [34320:37096:0214/120925.797:ERROR:device_event_log_impl.cc(215)] [12:09:25.797] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 12:10:23.207 [34320:38580:0214/121023.207:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+2월 14, 2023 14:08:20.499 NEW SESSION
+2월 14, 2023 14:08:20.499 [16484:33996:0214/140820.496:ERROR:device_event_log_impl.cc(215)] [14:08:20.496] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 14:08:20.501 [16484:33996:0214/140820.499:ERROR:device_event_log_impl.cc(215)] [14:08:20.500] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 14:09:17.100 [16484:31732:0214/140917.100:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 14, 2023 14:31:16.384 [19184:26072:0214/143116.383:ERROR:device_event_log_impl.cc(215)] [14:31:16.383] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 14:31:16.387 [19184:26072:0214/143116.387:ERROR:device_event_log_impl.cc(215)] [14:31:16.387] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 14:32:22.632 [2500:37288:0214/143222.631:ERROR:device_event_log_impl.cc(215)] [14:32:22.630] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 14:32:22.635 [2500:37288:0214/143222.634:ERROR:device_event_log_impl.cc(215)] [14:32:22.633] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 14:32:35.846 [34628:39204:0214/143235.846:ERROR:device_event_log_impl.cc(215)] [14:32:35.846] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 14:32:35.850 [34628:39204:0214/143235.849:ERROR:device_event_log_impl.cc(215)] [14:32:35.849] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 15:34:11.452 [23248:3124:0214/153411.451:ERROR:device_event_log_impl.cc(215)] [15:34:11.451] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 15:34:11.455 [23248:3124:0214/153411.455:ERROR:device_event_log_impl.cc(215)] [15:34:11.454] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 15:35:08.365 [23248:35008:0214/153508.364:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 14, 2023 16:05:11.567 [34540:20272:0214/160511.566:ERROR:device_event_log_impl.cc(215)] [16:05:11.565] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 16:05:11.570 [34540:20272:0214/160511.569:ERROR:device_event_log_impl.cc(215)] [16:05:11.568] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 14, 2023 16:06:09.269 [34540:40128:0214/160609.268:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 14, 2023 16:31:25.242 [34540:36396:0214/163125.241:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 16:31:25.243 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 16:31:25.244 ERROR: Failed parsing Certificate
+2월 14, 2023 16:31:25.245 
+2월 14, 2023 16:31:25.246 [34540:41944:0214/163125.241:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 16:31:25.247 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 16:31:25.248 ERROR: Failed parsing Certificate
+2월 14, 2023 16:31:25.249 
+2월 14, 2023 16:35:45.41 [34540:41944:0214/163545.041:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 14, 2023 16:35:45.43 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 14, 2023 16:35:45.45 ERROR: Failed parsing Certificate
+2월 14, 2023 16:35:45.46 
+
+2월 15, 2023 09:38:52.524 NEW SESSION
+2월 15, 2023 09:38:52.524 [37440:32792:0215/093852.520:ERROR:device_event_log_impl.cc(215)] [09:38:52.520] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 09:38:52.527 [37440:32792:0215/093852.523:ERROR:device_event_log_impl.cc(215)] [09:38:52.523] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 09:39:26.930 [37440:40648:0215/093926.930:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 15, 2023 09:39:26.933 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 15, 2023 09:39:26.935 ERROR: Failed parsing Certificate
+2월 15, 2023 09:39:26.936 
+2월 15, 2023 09:39:49.472 [37440:43172:0215/093949.471:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 15, 2023 10:05:45.104 [37440:31836:0215/100545.103:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 15, 2023 10:05:45.106 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 15, 2023 10:05:45.108 ERROR: Failed parsing Certificate
+2월 15, 2023 10:05:45.110 
+2월 15, 2023 11:02:45.923 [37440:9680:0215/110245.923:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 15, 2023 11:02:45.925 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 15, 2023 11:02:45.926 ERROR: Failed parsing Certificate
+2월 15, 2023 11:02:45.928 
+2월 15, 2023 11:54:06.409 [39704:34328:0215/115406.409:ERROR:device_event_log_impl.cc(215)] [11:54:06.408] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 11:54:06.413 [39704:34328:0215/115406.412:ERROR:device_event_log_impl.cc(215)] [11:54:06.412] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 11:55:03.150 [39704:13324:0215/115503.149:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 15, 2023 11:56:17.919 [43292:24172:0215/115617.918:ERROR:device_event_log_impl.cc(215)] [11:56:17.918] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 11:56:17.922 [43292:24172:0215/115617.921:ERROR:device_event_log_impl.cc(215)] [11:56:17.921] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 11:57:15.350 [43292:24980:0215/115715.349:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+2월 15, 2023 14:09:14.123 NEW SESSION
+2월 15, 2023 14:09:14.123 [26292:27452:0215/140914.120:ERROR:device_event_log_impl.cc(215)] [14:09:14.120] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 14:09:14.125 [26292:27452:0215/140914.123:ERROR:device_event_log_impl.cc(215)] [14:09:14.122] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 14:10:11.674 [26292:30432:0215/141011.673:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 15, 2023 14:59:55.773 [26292:38132:0215/145955.773:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 15, 2023 15:23:24.30 [26292:12076:0215/152324.029:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 15, 2023 15:23:24.33 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 15, 2023 15:23:24.37 ERROR: Failed parsing Certificate
+2월 15, 2023 15:23:24.39 
+2월 15, 2023 15:23:24.245 [26292:26764:0215/152324.244:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 15, 2023 15:23:24.246 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 15, 2023 15:23:24.247 ERROR: Failed parsing Certificate
+2월 15, 2023 15:23:24.248 
+2월 15, 2023 15:42:53.170 [30480:43968:0215/154253.169:ERROR:device_event_log_impl.cc(215)] [15:42:53.169] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 15:42:53.173 [30480:43968:0215/154253.172:ERROR:device_event_log_impl.cc(215)] [15:42:53.172] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 15:43:50.658 [30480:33280:0215/154350.657:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 15, 2023 16:26:47.81 [14600:28960:0215/162647.080:ERROR:device_event_log_impl.cc(215)] [16:26:47.080] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 15, 2023 16:26:47.85 [14600:28960:0215/162647.084:ERROR:device_event_log_impl.cc(215)] [16:26:47.084] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 16, 2023 15:16:14.892 NEW SESSION
+2월 16, 2023 15:16:14.892 [21132:35972:0216/151614.889:ERROR:device_event_log_impl.cc(215)] [15:16:14.888] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 15:16:14.893 [21132:35972:0216/151614.892:ERROR:device_event_log_impl.cc(215)] [15:16:14.893] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 15:16:38.560 [5856:36664:0216/151638.559:ERROR:device_event_log_impl.cc(215)] [15:16:38.559] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 15:16:38.564 [5856:36664:0216/151638.563:ERROR:device_event_log_impl.cc(215)] [15:16:38.563] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 15:16:55.274 [41112:40128:0216/151655.274:ERROR:device_event_log_impl.cc(215)] [15:16:55.273] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 15:16:55.277 [41112:40128:0216/151655.276:ERROR:device_event_log_impl.cc(215)] [15:16:55.276] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 16:20:54.307 [39736:43144:0216/162054.306:ERROR:device_event_log_impl.cc(215)] [16:20:54.307] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 16:20:54.310 [39736:43144:0216/162054.310:ERROR:device_event_log_impl.cc(215)] [16:20:54.310] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 16, 2023 16:21:51.173 [39736:36540:0216/162151.172:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 16, 2023 16:30:22.612 [39736:43144:0216/163022.611:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 16, 2023 16:46:54.359 [39736:43144:0216/164654.358:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+2월 16, 2023 16:47:03.206 [39736:43144:0216/164703.206:ERROR:device_event_log_impl.cc(215)] [16:47:03.171] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+
+2월 17, 2023 14:37:11.225 NEW SESSION
+2월 17, 2023 14:37:11.225 [41316:44112:0217/143711.222:ERROR:device_event_log_impl.cc(215)] [14:37:11.222] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 14:37:11.227 [41316:44112:0217/143711.225:ERROR:device_event_log_impl.cc(215)] [14:37:11.225] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 14:38:08.673 [41316:42900:0217/143808.672:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 17, 2023 14:44:04.956 [30736:44980:0217/144404.955:ERROR:device_event_log_impl.cc(215)] [14:44:04.955] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 14:44:04.959 [30736:44980:0217/144404.958:ERROR:device_event_log_impl.cc(215)] [14:44:04.958] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 14:45:01.736 [30736:31952:0217/144501.735:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 17, 2023 15:44:57.612 [46588:40784:0217/154457.611:ERROR:device_event_log_impl.cc(215)] [15:44:57.611] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 15:44:57.615 [46588:40784:0217/154457.614:ERROR:device_event_log_impl.cc(215)] [15:44:57.615] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 15:45:13.953 [2068:45204:0217/154513.952:ERROR:device_event_log_impl.cc(215)] [15:45:13.952] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 15:45:13.959 [2068:45204:0217/154513.956:ERROR:device_event_log_impl.cc(215)] [15:45:13.956] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 15:46:10.817 [2068:28176:0217/154610.816:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+2월 17, 2023 16:26:51.576 NEW SESSION
+2월 17, 2023 16:26:51.576 [41340:26520:0217/162651.573:ERROR:device_event_log_impl.cc(215)] [16:26:51.572] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 17, 2023 16:26:51.587 [41340:26520:0217/162651.576:ERROR:device_event_log_impl.cc(215)] [16:26:51.575] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 20, 2023 11:00:12.160 NEW SESSION
+2월 20, 2023 11:00:12.160 [16912:14216:0220/110012.156:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+2월 20, 2023 11:15:08.916 [6596:11096:0220/111508.915:ERROR:device_event_log_impl.cc(215)] [11:15:08.915] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 11:15:08.921 [6596:11096:0220/111508.921:ERROR:device_event_log_impl.cc(215)] [11:15:08.921] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 11:21:32.16 [8436:1876:0220/112132.015:ERROR:device_event_log_impl.cc(215)] [11:21:32.015] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 11:21:32.21 [8436:1876:0220/112132.020:ERROR:device_event_log_impl.cc(215)] [11:21:32.020] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 11:25:30.624 [7216:2216:0220/112530.623:ERROR:device_event_log_impl.cc(215)] [11:25:30.623] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 11:25:30.628 [7216:2216:0220/112530.628:ERROR:device_event_log_impl.cc(215)] [11:25:30.628] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 11:26:28.393 [7216:15592:0220/112628.393:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 20, 2023 12:19:09.357 [12424:1664:0220/121909.357:ERROR:device_event_log_impl.cc(215)] [12:19:09.356] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 12:19:09.363 [12424:1664:0220/121909.362:ERROR:device_event_log_impl.cc(215)] [12:19:09.362] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 12:20:05.954 [12424:3932:0220/122005.953:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 20, 2023 12:20:22.960 [5608:5852:0220/122022.960:ERROR:device_event_log_impl.cc(215)] [12:20:22.960] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 12:20:22.965 [5608:5852:0220/122022.965:ERROR:device_event_log_impl.cc(215)] [12:20:22.965] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 12:21:19.681 [5608:14504:0220/122119.681:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+2월 20, 2023 14:12:37.894 NEW SESSION
+2월 20, 2023 14:12:37.894 [11736:1640:0220/141237.890:ERROR:device_event_log_impl.cc(215)] [14:12:37.891] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 14:12:37.898 [11736:1640:0220/141237.894:ERROR:device_event_log_impl.cc(215)] [14:12:37.895] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 14:13:35.81 [11736:17524:0220/141335.080:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 20, 2023 15:05:17.274 [12656:4408:0220/150517.273:ERROR:device_event_log_impl.cc(215)] [15:05:17.273] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 15:05:17.279 [12656:4408:0220/150517.278:ERROR:device_event_log_impl.cc(215)] [15:05:17.279] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 15:06:14.633 [12656:5080:0220/150614.632:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 20, 2023 15:08:33.365 [4756:16076:0220/150833.364:ERROR:device_event_log_impl.cc(215)] [15:08:33.364] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 15:08:33.371 [4756:16076:0220/150833.368:ERROR:device_event_log_impl.cc(215)] [15:08:33.367] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 20, 2023 15:09:30.248 [4756:16784:0220/150930.246:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+2월 21, 2023 15:21:10.389 NEW SESSION
+2월 21, 2023 15:21:10.389 [21060:12008:0221/152110.386:ERROR:device_event_log_impl.cc(215)] [15:21:10.385] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 15:21:10.391 [21060:12008:0221/152110.390:ERROR:device_event_log_impl.cc(215)] [15:21:10.389] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 15:21:20.439 [17664:9184:0221/152120.439:ERROR:device_event_log_impl.cc(215)] [15:21:20.438] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 15:21:20.445 [17664:9184:0221/152120.444:ERROR:device_event_log_impl.cc(215)] [15:21:20.444] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 15:31:39.443 [7756:18944:0221/153139.442:ERROR:device_event_log_impl.cc(215)] [15:31:39.442] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 15:31:39.448 [7756:18944:0221/153139.447:ERROR:device_event_log_impl.cc(215)] [15:31:39.447] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 15:32:36.962 [7756:16444:0221/153236.961:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 21, 2023 15:37:05.209 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 21, 2023 16:47:03.465 [2284:1780:0221/164703.464:ERROR:device_event_log_impl.cc(215)] [16:47:03.464] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 16:47:03.470 [2284:1780:0221/164703.469:ERROR:device_event_log_impl.cc(215)] [16:47:03.469] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 16:48:05.928 [1512:12020:0221/164805.928:ERROR:device_event_log_impl.cc(215)] [16:48:05.928] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 16:48:05.934 [1512:12020:0221/164805.933:ERROR:device_event_log_impl.cc(215)] [16:48:05.933] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 21, 2023 16:49:03.250 [1512:11568:0221/164903.249:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 21, 2023 18:06:35.20 [1512:12808:0221/180635.019:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+
+2월 22, 2023 09:38:19.439 NEW SESSION
+2월 22, 2023 09:38:19.439 [17744:4964:0222/093819.435:ERROR:device_event_log_impl.cc(215)] [09:38:19.435] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 11:54:25.831 [12792:20812:0222/115425.830:ERROR:device_event_log_impl.cc(215)] [11:54:25.830] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 11:55:00.270 [6456:22496:0222/115500.270:ERROR:device_event_log_impl.cc(215)] [11:55:00.270] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 11:55:32.729 [2732:22332:0222/115532.728:ERROR:device_event_log_impl.cc(215)] [11:55:32.728] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 11:56:10.212 [14048:13176:0222/115610.211:ERROR:device_event_log_impl.cc(215)] [11:56:10.212] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 11:57:07.682 [14048:12184:0222/115707.682:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 22, 2023 12:12:38.592 [10140:22364:0222/121238.591:ERROR:device_event_log_impl.cc(215)] [12:12:38.592] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 12:13:35.98 [10140:20188:0222/121335.097:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 22, 2023 12:15:37.337 [6176:9944:0222/121537.336:ERROR:device_event_log_impl.cc(215)] [12:15:37.336] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 12:16:34.797 [6176:22404:0222/121634.796:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 22, 2023 12:17:21.194 [22124:19660:0222/121721.193:ERROR:device_event_log_impl.cc(215)] [12:17:21.193] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 22, 2023 12:25:24.316 NEW SESSION
+2월 22, 2023 12:25:24.316 [21676:19228:0222/122524.314:ERROR:device_event_log_impl.cc(215)] [12:25:24.314] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 22, 2023 12:38:24.46 NEW SESSION
+2월 22, 2023 12:38:24.46 [6520:6356:0222/123824.041:ERROR:device_event_log_impl.cc(215)] [12:38:24.041] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 12:41:47.673 [21792:18064:0222/124147.672:ERROR:device_event_log_impl.cc(215)] [12:41:47.671] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 12:42:44.880 [21792:21452:0222/124244.879:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+2월 22, 2023 14:06:15.279 NEW SESSION
+2월 22, 2023 14:06:15.279 [17012:11428:0222/140615.277:ERROR:device_event_log_impl.cc(218)] [14:06:15.277] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 22, 2023 14:13:27.258 [17012:19984:0222/141327.257:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 22, 2023 15:47:24.374 [2868:5100:0222/154724.373:ERROR:device_event_log_impl.cc(218)] [15:47:24.373] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 23, 2023 09:06:38.256 NEW SESSION
+2월 23, 2023 09:06:38.256 [2920:6896:0223/090638.254:ERROR:device_event_log_impl.cc(218)] [09:06:38.253] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 09:06:38.284 [2920:15136:0223/090638.284:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 23, 2023 09:08:12.540 [2920:6896:0223/090812.539:ERROR:device_event_log_impl.cc(218)] [09:08:12.535] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+2월 23, 2023 09:08:12.563 [2920:6896:0223/090812.562:ERROR:device_event_log_impl.cc(218)] [09:08:12.562] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+2월 23, 2023 09:43:45.567 [23544:23684:0223/094345.566:ERROR:device_event_log_impl.cc(218)] [09:43:45.566] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 09:43:45.572 [23544:23684:0223/094345.571:ERROR:device_event_log_impl.cc(218)] [09:43:45.571] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 23, 2023 14:01:42.62 NEW SESSION
+2월 23, 2023 14:01:42.62 [18020:21344:0223/140142.058:ERROR:device_event_log_impl.cc(218)] [14:01:42.057] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 14:01:42.68 [18020:21344:0223/140142.058:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+2월 23, 2023 14:01:42.75 [18020:21344:0223/140142.058:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+2월 23, 2023 14:01:42.77 [18020:21344:0223/140142.058:ERROR:device_event_log_impl.cc(218)] [14:01:42.058] USB: usb_device_win.cc:95 Failed to read descriptors from \\?\usb#vid_0bda&pid_8153#001000001#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+2월 23, 2023 14:01:42.80 [18020:21344:0223/140142.058:ERROR:device_event_log_impl.cc(218)] [14:01:42.058] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 14:01:42.82 [18020:21344:0223/140142.072:ERROR:device_event_log_impl.cc(218)] [14:01:42.072] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 23, 2023 18:18:44.830 NEW SESSION
+2월 23, 2023 18:18:44.830 [14856:17112:0223/181844.828:ERROR:device_event_log_impl.cc(218)] [18:18:44.827] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 18:18:44.831 [14856:17112:0223/181844.828:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+2월 23, 2023 18:18:44.832 [14856:17112:0223/181844.829:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+2월 23, 2023 18:18:44.833 [14856:17112:0223/181844.829:ERROR:device_event_log_impl.cc(218)] [18:18:44.828] USB: usb_device_win.cc:95 Failed to read descriptors from \\?\usb#vid_0bda&pid_8153#001000001#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+2월 23, 2023 18:18:44.833 [14856:17112:0223/181844.829:ERROR:device_event_log_impl.cc(218)] [18:18:44.828] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 18:18:44.835 [14856:17112:0223/181844.830:ERROR:device_event_log_impl.cc(218)] [18:18:44.830] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 18:18:44.836 [14856:17112:0223/181844.830:ERROR:device_event_log_impl.cc(218)] [18:18:44.830] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 23, 2023 18:22:52.54 [14856:3176:0223/182252.053:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 23, 2023 18:22:52.56 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 23, 2023 18:22:52.57 ERROR: Failed parsing Certificate
+2월 23, 2023 18:22:52.58 
+2월 23, 2023 18:22:52.91 [14856:3176:0223/182252.090:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 23, 2023 18:22:52.93 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 23, 2023 18:22:52.94 ERROR: Failed parsing Certificate
+2월 23, 2023 18:22:52.95 
+2월 23, 2023 18:22:52.346 [14856:3176:0223/182252.345:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 23, 2023 18:22:52.347 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 23, 2023 18:22:52.349 ERROR: Failed parsing Certificate
+2월 23, 2023 18:22:52.356 
+2월 23, 2023 18:23:39.393 [14856:3176:0223/182339.392:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 23, 2023 18:23:39.395 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 23, 2023 18:23:39.396 ERROR: Failed parsing Certificate
+2월 23, 2023 18:23:39.397 
+
+2월 24, 2023 09:19:26.798 NEW SESSION
+2월 24, 2023 09:19:26.798 [12760:14828:0224/091926.795:ERROR:device_event_log_impl.cc(218)] [09:19:26.794] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 24, 2023 09:39:15.860 [25756:14416:0224/093915.859:ERROR:device_event_log_impl.cc(218)] [09:39:15.859] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 24, 2023 10:14:22.385 [3508:16452:0224/101422.384:ERROR:device_event_log_impl.cc(218)] [10:14:22.384] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 24, 2023 10:22:54.470 [3508:18572:0224/102254.468:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 24, 2023 10:54:32.132 [3508:18572:0224/105432.130:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 24, 2023 11:26:16.785 [3508:18572:0224/112616.784:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 24, 2023 11:26:37.292 [3508:18572:0224/112637.291:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 24, 2023 11:42:06.219 [23724:22092:0224/114206.219:ERROR:device_event_log_impl.cc(218)] [11:42:06.218] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 24, 2023 12:15:29.86 [23724:12692:0224/121529.085:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 24, 2023 12:15:29.87 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 24, 2023 12:15:29.88 ERROR: Failed parsing Certificate
+2월 24, 2023 12:15:29.89 

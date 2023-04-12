@@ -1,0 +1,359 @@
+/*紐⑤컮�씪�슜 CSS*/
+@media all and (min-width:320px) {
+
+    #wrap-section{
+    box-sizing:border-box;
+    }
+
+	.info_section{
+        order: 1;
+        width: 100%;
+        background-color: #8c7a73;
+    /* background-color: #2ecc71;*/
+        border-bottom: 1px solid #1d1e20;
+    /*border-bottom: 1px solid #39d67c;*/
+    }
+	.info_list{
+		display: flex;
+	}
+	.info_list li{
+		width: 25%;
+		text-align: center;
+	}
+	.info_list li a{
+		display: block;
+		padding: 15px 0;
+		padding: 0.938rem 0;
+	}
+
+	/*�뿤�뜑 �쁺�뿭*/
+	
+
+/*肄섑뀗痢� �쁺�뿭 CSS*/
+	.content_section{
+		order: 4;
+		padding: 20px;
+		padding: 1.250rem;
+		background: #ddd7d0;
+	}
+
+	.board_table{
+		width: 100%;
+	}
+
+	.board_table caption{
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		visibility: hidden;
+	}
+
+	.board_table thead, .board_table tbody{
+		font-size: 0.813em;
+		font-size: 0.813rem;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.board_table thead{
+		color: #fff;
+		background:  #5c4b48;
+	}
+
+	.board_table tbody, .board_table tbody a{
+		color:#5c4b48;
+		background: #f6f6f6;
+	}
+
+	.board_table thead tr th{
+		padding: 18px 0;
+		padding: 1.125rem 0;
+	}
+
+	.board_table tbody tr td{
+		padding: 22px 0;
+		padding: 1.375rem 0;
+	}
+
+	.board_table thead tr th:first-child,
+	.board_table thead tr th:nth-child(3),
+	.board_table thead tr th:nth-child(4),
+	.board_table tbody tr td:first-child,
+	.board_table tbody tr td:nth-child(3),
+	.board_table tbody tr td:nth-child(4){
+		display: none;
+	}
+
+
+    
+	.review_table{
+		width: 100%;
+	}
+
+	.review_table caption{
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		visibility: hidden;
+	}
+
+	.review_table thead, .review_table tbody{
+		font-size: 0.813em;
+		font-size: 0.813rem;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.review_table thead{
+		color: #fff;
+		background: #5c4b48;
+	}
+
+	.review_table tbody, .review_table tbody a{
+		color: #5c4b48;
+		background: #f6f6f6;
+	}
+
+	.review_table thead tr th{
+		padding: 18px 0;
+		padding: 1.125rem 0;
+	}
+
+	.review_table tbody tr td{
+		padding: 22px 0;
+		padding: 1.375rem 0;
+	}
+
+    
+	.review_table thead tr th:first-child,
+	.review_table thead tr th:nth-child(3),
+	.review_table thead tr th:nth-child(4),
+	.review_table tbody tr td:first-child,
+	.review_table tbody tr td:nth-child(3),
+	.review_table tbody tr td:nth-child(4){
+		display: none;
+	}
+
+
+	.content_row_2{
+		display: flex;
+		justify-content: space-between;
+		margin: 30px 0 40px 0;
+		margin: 1.875rem 0 2.500rem 0;
+	}
+
+	.search_window{
+		width: 118px;
+		width: 7.375rem;
+		height: 28px;
+		height: 1.750rem;
+		font-size: 0.688em;
+		font-size: 0.688rem;
+		line-height: 28px;
+		line-height: 1.750rem;
+		text-indent: 10px;
+		text-indent: 0.625rem;
+	}
+
+	.search_select_box{
+		display: none;
+	}
+
+	.write_box a{
+		display: block;
+		width: 70px;
+		width: 4.375rem;
+		height: 30px;
+		height: 1.875rem;
+		font-size: 0.813em;
+		font-size: 0.813rem;
+		line-height: 30px;
+		line-height: 1.875rem;
+		text-align: center;
+		background: #fff;
+		color: #000;
+	}
+
+	.content_row_3{
+		display: flex;
+		justify-content: center;
+	}
+
+	.content_row_3 span{
+		width: 28px;
+		width: 1.750rem;
+		height: 28px;
+		height: 1.750rem;
+		text-indent: -9999px;
+	}
+
+	.content_row_3 span.list_prev_btn{
+		margin-right: 10px;
+		margin-right: 0.625rem;
+		background: #5c4b48 url(../images/list_prev_btn.png) center center no-repeat;
+	}
+	
+	.content_row_3 span.list_next_btn{
+		margin-left: 10px;
+		margin-left: 0.625rem;
+		background: #5c4b48 url(../images/list_next_btn.png) center center no-repeat;
+	}
+
+	.content_row_3 a{
+		width: 26px;
+		width: 1.625rem;
+		font-size: 0.813em;
+		font-size: 0.813rem;
+		line-height: 26px;
+		line-height: 1.625rem;
+		text-align: center;
+		border: 1px solid #5c4b48;
+		color: #5c4b48;
+		transition: all 0.2s;
+	}
+
+	.content_row_3 a:nth-of-type(2){
+		margin: 0 6px;
+		margin: 0 0.375rem;
+	}
+
+	.content_row_3 a:hover{
+		color: #fff;
+		background: #5c4b48;
+	}
+
+}
+
+/*�깭釉붾┸�슜 CSS*/
+@media all and (min-width:768px) {
+#wrap{
+	flex-flow: column nowrap;
+	}
+
+	
+	
+/*肄섑뀗痢� �쁺�뿭 CSS*/
+.content_section{
+padding: 30px;
+padding: 2.500rem;
+}
+	.board_table thead tr th:first-child,
+	.board_table thead tr th:nth-child(3),
+	.board_table thead tr th:nth-child(4),
+	.board_table tbody tr td:first-child,
+	.board_table tbody tr td:nth-child(3),
+	.board_table tbody tr td:nth-child(4){
+		display: table-cell;
+	}
+
+	.board_table thead tr th:first-child{
+		width: 10%;
+	}
+
+	.board_table thead tr th:first-child{
+		width: 10%;
+	}
+
+	.board_table thead tr th:nth-child(2){
+		width: 65%;
+	}
+
+	.board_table thead tr th:nth-child(3){
+		width: 15%;
+	}
+
+	.board_table thead tr th:nth-child(4){
+		width: 10%;
+	}
+
+	.board_table tbody tr td:nth-child(2){
+		text-align: center;
+	}
+
+    .review_table thead tr th:first-child,
+	.review_table thead tr th:nth-child(3),
+	.review_table thead tr th:nth-child(4),
+	.review_table tbody tr td:first-child,
+	.review_table tbody tr td:nth-child(3),
+	.review_table tbody tr td:nth-child(4){
+		display: table-cell;
+	}
+
+	.review_table thead tr th:first-child{
+		width: 10%;
+	}
+
+	.review_table thead tr th:first-child{
+		width: 10%;
+	}
+
+	.review_table thead tr th:nth-child(2){
+		width: 10%;
+	}
+
+	.review_table thead tr th:nth-child(3){
+		width: 50%;
+	}
+
+	.review_table thead tr th:nth-child(4){
+		width: 10%;
+	}
+
+    .review_table thead tr th:nth-child(5){
+		width: 10%;
+	}
+	.review_table tbody tr td:nth-child(2){
+		text-align: center;
+	}
+
+}
+
+/*PC�슜 CSS*/
+@media all and (min-width:1200px) {
+
+/*湲곕낯CSS*/
+#wrap{
+	position: relative;
+	width: 100%;
+	}
+
+	.info_section{
+        order:0;
+        position:absolute;
+        top:30px;
+        top:1.875rem;
+        right:30px;
+        right:1.875rem;
+        z-index:30;
+        width:auto;
+        border-bottom:0;
+    }
+    .info_list li{
+        width:auto;
+        margin-left:15px;
+        margin-left:0.625rem;
+    }
+    .info_list li a{
+        padding:0;
+    }
+
+	
+/*�꽌釉� �뿤�뜑 �쁺�뿭 CSS*/
+.sub_header_section{
+	order: 2;
+}
+
+/*肄섑뀗痢� �쁺�뿭 CSS*/
+.content_section{
+	order: 3;
+	padding: 60px;
+	padding: 3.750rem;
+}
+
+}

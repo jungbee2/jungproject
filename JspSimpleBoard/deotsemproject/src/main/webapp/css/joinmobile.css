@@ -1,0 +1,113 @@
+/* BASIC css start */
+#join .MK_ok_confirm {color: #1984f1;}
+#join .MK_no_confirm {color: #f1191f;}
+#join .sequence {height:100px; text-align:center;}
+#join .sequence li {display: inline-block; margin: 0 12px;}
+#join .sequence li .fa-stack {display:block; margin:20px auto 0;}
+#join .sequence li .fa-circle {color: #858585;}
+#join .sequence li.now {color:#ab3e41;}
+#join .sequence li.now .fa-circle {color:#ab3e41;}
+#join .join {background-color: #eaeaea; padding:0 5px 20px 5px;}
+#join .join .tableBox {padding:10px 0; background-color: #fff; margin-bottom:10px;}
+#join .join .tableBox:last-child {margin-bottom:0;}
+#join .join .tableBox table {width:100%; }
+#join .join .tableBox table:first-child {margin-top:0;}
+#join .join .tableBox table th { font-size:80%;text-align:left; vertical-align: top; padding:17px 0 0 10px;}
+#join .join .tableBox table td {padding:10px 10px 10px 0; position:relative;}
+#join .join .tableBox table td p {font-size:0.917em; margin-top: 5px; color:#707070;}
+#join .join .tableBox table td.birth select {margin:0 5px 10px 0; width: 29%;}
+#join .join .tableBox table td.birth .MS_input_txt {width: 27%;}
+#join .join .tableBox table tr.birth dl.type1:after { clear:both; display:block; content:''; }
+#join .join .tableBox table tr.birth dl.type1 dd { float:left; width:30%; }
+#join .join .tableBox table tr.birth dl.type1 dd:first-child { width:40%; }
+#join .join .tableBox table tr.birth dl.type1 dd:nth-child(2) .box-select,
+#join .join .tableBox table tr.birth dl.type1 dd:nth-child(3) .box-select { margin-left:5px; }
+#join .join .tableBox table tr.birth dl.type2:after { clear:both; display:block; content:''; }
+#join .join .tableBox table tr.birth dl.type2 dd { position:relative; float:left; width:30%; }
+#join .join .tableBox table tr.birth dl.type2 dd ul li { margin: 0 6px 0 0 }
+#join .join .tableBox table tr.birth dl.type2 dd:first-child { width:40%; }
+#join .join .tableBox table tr.birth dl.type2 dd:nth-child(2) div,
+#join .join .tableBox table tr.birth dl.type2 dd:nth-child(3) div { margin-left:5px; }
+#join .join .tableBox table tr .fc-blue {display:none;}
+#join .join .tableBox table tr.gender dl:after { clear:both; display:block; content:''; }
+#join .join .tableBox table tr.gender dl dd { float:left; width:49%; }
+#join .join .tableBox table tr.gender dl dd:nth-child(2) label { margin-left:5px; }
+#join .join .tableBox table tr.gender dl dd label { display:block; width:100%; height:35px; line-height:37px; border:1px solid #bbb; text-align:center; background:#fff; }
+#join .join .tableBox table tr.gender dl dd label.on { color:#fff; border:1px solid #bbb; background:#636363; }
+#join .join .tableBox table tr.gender dl dd label .input-radio { display:none; width:0 !important; height:0 !important; }
+#join .join .tableBox table .MS_input_tel,
+#join .join .tableBox table .MS_input_sms {width: 80% !important;}
+#join .join .tableBox table .txt-input {width:100%; box-sizing: border-box;}
+#join .join .tableBox table .txt-input[name=haddress1] {margin-bottom:10px;}
+#join .join .tableBox table #email1 {width: 35% !important;}
+#join .join .tableBox table #email1 {width: 35% !important;}
+#join .join .tableBox table #hphone1,
+#join .join .tableBox table #hphone2,
+#join .join .tableBox table #hphone3,
+#join .join .tableBox table #etcphone1,
+#join .join .tableBox table #etcphone2,
+#join .join .tableBox table #etcphone3 {width: 29% !important;}
+#join .join .tableBox table .btn { display:block; position:absolute; top:9px; right:10px; width:18%; height:34px; line-height:36px; font-size:0.75em; font-weight:bold; color:#fff; border:1px solid #ddd; background:#636363; text-align:center; }
+#join .join .every-agree {padding: 10px 0 10px 0; background-color: #fff; font-weight: bold; color: #BD3D3D;}
+#join .pd10 {margin-top: 20px;}
+#join .step-comm {display:none;}
+#join .layer .keyword input {width:45%;}
+#join .layer .msg01 {text-align: center;}
+#join .layer .msg-wrap {background-color: #fbfbfb; padding:10px 0; text-align: center;}
+#join .layer .msg-wrap .msg01-highlight {color:#1984f1;}
+#join .layer #searchStep02 {margin-top:10px;}
+#join .layer #searchStep02 h4 {font-weight: bold;}
+#join .layer #searchStep02 .btn_Black {margin-top:10px;}
+#join .layer #searchStep03 table {width:100%;}
+#join .layer #searchStep03 table th {width:20%; text-align: left;}
+#join .layer #searchStep03 table td {padding:10px 0;}
+#join .layer #searchStep03 table .detail-addrPost input {width:50px;}
+#join .layer #searchStep03 table .detail-addrAddress input {width:90%; margin-bottom: 5px;}
+#join .desc-2 {background-color: #fff; padding:20px 10px; margin-top:10px;}
+#join .desc-2 dl {margin-bottom:20px;}
+#join .btn-txt-view {border:1px solid #c7c7c7; padding:4px 10px; float: right;}
+#layerTermsWrap, #layerPrivercyWrap, #layerTermsWrap-A, #layerTermsWrap-B, #layerTermsWrap-C, #layerTermsWrap-D {display:none;}
+#layerTermsWrap .txt, #layerPrivercyWrap .txt, #layerThirdPartyWrap .txt, #layerTrustWrap .txt {padding: 15px 10px; }
+#join .layerArea .layer-pop {width:90%; background-color: #fff; position: relative; box-shadow: 0px 1px 10px #494949; margin:80px auto;}
+#layerTermsWrap .layer .layer-pop, #layerTerms-A, #layerTerms-B, #layerTerms-C, #layerTerms-D {width:90%; background-color: #fff; position: relative; box-shadow: 0px 1px 10px #494949; margin:80px auto;}
+#layerTermsWrap .layer .txt, .layerArea .layer-pop .txt {max-height: 300px; overflow-y: auto; padding:10px;background-color: #fff;}
+#join .layerArea .layer-pop h3 {background-color: #efefef; height: 36px; line-height: 36px; font-weight: bold; padding: 0 10px; }
+#join .layerArea .layer-pop .btns { margin: 25px 0; padding: 0 15px; }
+.layer-pop .btns .btn-type-03, .layer-pop .btns .btn-type-04 { padding: 7px 20px; }
+#join .layerArea .layer-pop .btns .f-right { float: right; }
+#join .layerArea .layer-pop .close {display: block; width:45px; height:36px; position: absolute; right:0; top:0; background:url("/images/btn_del_gray@2x.gif") no-repeat center center; background-size: 45px 36px; text-indent: -9999px; font-size: 0;}
+#join .layerArea .txt table {width:100%;}
+
+/* 媛쒖씤�젙蹂� �닔吏� �씠�슜�븞�궡 */
+#join .desc h3.none-line {border-bottom: none; }
+#join .privercy-contract-tap {position: relative; border-left: 1px solid #cacaca; }
+#join .privercy-contract-tap li {list-style-type: none; border-top: 1px solid #cacaca;  border-right: 1px solid #CACACA; background-color: #f4f4f4; display: block; float: left; line-height: 27px; text-align: center; width: 33%; height: 28px; margin-bottom: -1px; }
+#join .privercy-contract-tap li.sel{background-color: #fff; border-bottom: 1px solid #fff; }
+#join .privercy-contract-tap li:last-child {border-right: 1px solid #cacaca;; }
+#join .privercy-contract-tap li a {text-align: center; padding: 0; display: block; color: #787878; width: 100%; height: 100%; }
+#join .tab-content {border: 1px solid #cacaca;}
+#join .tab-content .privercy-contract {padding: 10px; }
+#join .tab-content .privercy-contract p {line-height: 1.5em; width: 100%; height: 55px; margin: 0; padding: 0; border: none; overflow-y: hidden;}
+
+/* 援щ쾭�쟾 �씠�슜�빟愿� �벑 style 紐⑥쓬 */
+#join .desc-3 {border: 1px solid #909090;}
+#join .desc {position: relative; background-color: #fff; padding: 20px 10px 10px 10px; margin: 0 5px;}
+#join .desc .open-pop {position: absolute; right: 10px; top: 18px; border: 1px solid #c7c7c7; padding: 2px 10px; float: right;}
+#join .desc h3 {font-weight: bold; padding: 3px 0;}
+#join .agree-2 {padding-left: 10px; background-color: #fff; margin: 0 5px;}
+#layerTermsWrap, #layerPrivercyWrap, #layerThirdPartyWrap, #layerTrustWrap { display: none; }
+
+
+/* ���젆�듃諛뺤뒪 */
+.box-select { position:relative; background:#fff; border:1px solid #bbb; height:35px; vertical-align:middle; }
+.box-select select { 
+	display:block; width:100%; height:100%; position:absolute; left:0; top:0; border:none; color:#000;
+    background:#fff url('/images/d3/modern_simple/btn/btn_select.gif') no-repeat right 0; background-size:35px 35px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;
+    padding-left:6px;	font-size:0.85em; line-height:35px; font-family:dotum;
+}
+/* BASIC css end */
+

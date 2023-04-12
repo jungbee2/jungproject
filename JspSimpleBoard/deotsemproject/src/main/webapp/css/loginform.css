@@ -1,0 +1,111 @@
+.column-wrapper.one-column .field {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.designSettingElement.text-link, .item-wrapper.text-title a[href], .item-wrapper.text-body a[href] {
+    color: #222222 !important;
+}
+
+.wrapper .field .content .row {
+    margin-bottom: 20px;
+}
+
+.login.wrapper {
+    position: relative;
+    max-width: 640px;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 60px 16px 70px;
+}
+
+.wrapper .field .row .title, .wrapper .field .row .identityNumber-title,
+.payment-process.wrapper .signup .content .row .title {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.xans-member-login .login fieldset li a {
+    color: #2e2e2e;
+    margin: 0 15px 0 15px;
+    padding-top:10px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+.wrapper .field .row input[type=text], .wrapper .field .row input[type=password]{
+    margin-top:10px;
+    width:400px;
+    height:45px;
+} 
+
+a, a:hover, a:active, a:focus, a:visited, input, button, select {
+    text-decoration: none;
+    outline: none !important;
+}
+
+
+.login .wrapper .field .content .btn-wrapper input {
+    margin-left:70px;
+    margin-bottom: 10px;
+    width: 100% !important;
+    max-width: 240px;
+    height: 54px !important;
+    font-size: 14px !important;
+    color:#fff;
+    background-color: #222;
+}
+
+
+
+
+
+.btn-wrapper input {
+	margin-left:70px;
+    margin-bottom: 10px;
+    width: 100% !important;
+    max-width: 240px;
+    height: 54px !important;
+    font-size: 14px !important;
+    color:#fff;
+    background-color: #222;
+}
+
+.btn-wrapper input:hover {
+	margin-left:70px;
+    margin-bottom: 10px;
+    width: 100% !important;
+    max-width: 240px;
+    height: 54px !important;
+    font-size: 14px !important;
+    color:#222;
+    background-color: #fff;
+}
+	
+	
+	
+	
+	
+.login.wrapper .field .content .btn-wrapper button:hover {
+    margin-left:70px;
+    margin-bottom: 10px;
+    width: 100% !important;
+    max-width: 240px;
+    height: 54px !important;
+    font-size: 14px !important;
+    color:#222;
+    background-color: #fff;
+}
+
+.find-pw{
+    text-align: center;
+    font-size: 14px;
+    color: #2e2e2e;
+    margin: 0 15px 0 15px;
+}

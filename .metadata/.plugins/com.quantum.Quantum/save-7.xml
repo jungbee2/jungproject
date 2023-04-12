@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<SAVED_DATA>
+	<bookmarks>
+		<jdbcDriver className="org.apache.derby.jdbc.EmbeddedDriver" name="Apache Derby Embedded JDBC Driver" type="DERBY" version="10.3.1.4 - (561794)">
+			<jar fileName="C:/Users/komi1/.p2/pool/plugins/com.quantum.derby_3.3.10/lib/derby.jar" />
+		</jdbcDriver>
+		<jdbcDriver className="com.mysql.cj.jdbc.Driver" name="MySQL Connector/J" type="MYSQL" version="mysql-connector-j-8.0.32 (Revision: fa4912a849140828e48162a2c396c8df0091bed7)">
+			<jar fileName="C:\sist1226\jswork\util\mysql-connector-j-8.0.32.jar" />
+		</jdbcDriver>
+		<bookmark>
+			<name>(Internal) Derby</name>
+			<username>QUANTUM</username>
+			<password />
+			<prompt>false</prompt>
+			<connect>jdbc:derby:C:/Users/komi1/.p2/pool/plugins/com.quantum.derby_3.3.10/data/quantum</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>true</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>org.apache.derby.jdbc.EmbeddedDriver</driver>
+			<type>DERBY</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>C:/Users/komi1/.p2/pool/plugins/com.quantum.derby_3.3.10/lib/derby.jar</driverLocation>
+			<Other_Schemas schemaRule="useAll" />
+			<quickList />
+			<queryList />
+		</bookmark>
+		<bookmark>
+			<name>mysql_root</name>
+			<username>root</username>
+			<password>1234</password>
+			<prompt>false</prompt>
+			<connect>jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Seoul</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>false</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>com.mysql.cj.jdbc.Driver</driver>
+			<type>MYSQL</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>C:\sist1226\jswork\util\mysql-connector-j-8.0.32.jar</driverLocation>
+			<Other_Schemas schemaRule="useSelected">
+				<schema>test</schema>
+			</Other_Schemas>
+			<quickList />
+			<queryList>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '버터빵', '../image/f2png', 5700,5)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '소금빵', '../image/f3png', 5600, 6)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '해물빵', '../image/f4png', 8800, 8)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM food WHERE (num = 4) AND (foodname = '버터빵') AND (foodphoto = '../image/f2png') AND (price = 5700) AND (cnt = 5)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM food WHERE (num = 5) AND (foodname = '소금빵') AND (foodphoto = '../image/f3png') AND (price = 5600) AND (cnt = 6)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM food WHERE (num = 6) AND (foodname = '해물빵') AND (foodphoto = '../image/f4png') AND (price = 8800) AND (cnt = 8)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM food WHERE (num = 3) AND (foodname = '바게트빵') AND (foodphoto = '../image/f1.png') AND (price = 6600) AND (cnt = 2)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '소금빵', '../image/f3.png', 5600, 6)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '마늘빵', '../image/f4.png', 5600, 6)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '바게트빵', '../image/f5.png', 5600, 6)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '바닐라빵', '../image/f2.png', 5600, 6)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM food WHERE (num = 9) AND (foodname = '바게트빵') AND (foodphoto = '../image/f5.png') AND (price = 5600) AND (cnt = 6)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO food (foodname, foodphoto, price, cnt ) VALUES  ( '바게트빵', '../image/f5.jpg', 7700, 3)</queryString>
+				</query>
+				<query>
+					<queryString>create table jshop(num int auto_increment primary key, 
+sangpum varchar(20),
+color varchar(20),
+price int,
+imagename varchar(50))</queryString>
+				</query>
+				<query>
+					<queryString>insert into jshop values(null,'마우스','pink',15000,'../image/01.png')</queryString>
+				</query>
+				<query>
+					<queryString>insert into jshop values(null,'마우스패드','black',12000,'../image/02.png')</queryString>
+				</query>
+				<query>
+					<queryString>insert into jshop values(null,'키보드','tomato',25000,'../image/03.png')</queryString>
+				</query>
+				<query>
+					<queryString>insert into jshop values(null,'모니터','yellow',209000,'../image/04.png')</queryString>
+				</query>
+				<query>
+					<queryString>insert into jshop values(null,'충전기','white',19000,'../image/05.png')</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE simpleboard SET imgname = 'dog1.jpg'</queryString>
+				</query>
+			</queryList>
+		</bookmark>
+	</bookmarks>
+</SAVED_DATA>

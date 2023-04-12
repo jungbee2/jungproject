@@ -1,0 +1,49 @@
+#body .page .section-wrapper .section, #body .page .section-wrapper .item-wrapper, #body .page .section-wrapper .item-element {
+    position: relative;
+}
+#body .section-wrapper .section {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+    background-color: transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+element.style {
+    height: 168px;
+}
+#body .page .section-wrapper .section, #body .page .section-wrapper .item-wrapper, #body .page .section-wrapper .item-element {
+    position: relative;
+}
+.section .item-wrapper .item-element {
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    height: auto;
+}
+
+.section .item-wrapper .text {
+    padding:30px;
+}
+
+
+#body .page .section-wrapper .section, #body .page .section-wrapper .item-wrapper, #body .page .section-wrapper .item-element {
+    position: relative;
+}
+.section .item-wrapper.image {
+    line-height: 0;
+}
+.section .item-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+}
