@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases><!-- 별명등록하는곳..dto가져올때 type으로 가져온다.(dto의 Type 등록) -->
+		<typeAlias alias="redto"  type="reboard.data.model.ReboardDto"/>
+		<typeAlias alias="answerdto"  type="reanswer.data.model.ReanswerDto"/>
+	</typeAliases>
+</configuration>

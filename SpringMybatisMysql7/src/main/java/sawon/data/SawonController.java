@@ -207,15 +207,16 @@ public class SawonController {
 	public String delete(@RequestParam String num,HttpSession session)
 	{
 		
+		//String photo=dao.getData(num).getPhoto();
 		SawonDto dto= dao.getData(num);
 		String pname= dto.getPhoto();
 		
 		
 		//사진 있을 경우 실제경로에서 의 삭제
-		if(pname != "no")
+		if(pname != "no") //photo
 		{
 			String path=session.getServletContext().getRealPath("/WEB-INF/image");
-			File file= new File(path+"\\"+pname);
+			File file= new File(path+"\\"+pname); //선생님은 photo로 했습니다
 			file.delete();
 		}
 		
