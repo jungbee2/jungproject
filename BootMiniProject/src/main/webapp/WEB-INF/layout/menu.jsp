@@ -25,14 +25,14 @@
 	}
 	
 	ul.menu li{
-	width:120px;
+	width:160px;
 	float:left;
 	border: none;
 	height: 50px;
 	line-height:50px;
-	margin-right:10px;
 	text-align:center;
-	font-size: 20px;
+	font-size: 16px;
+	font-weight:bold;
 	background-color: #fafaf1;
 	cursor:pointer;
 	}
@@ -74,18 +74,35 @@
 		<a href="${root }/board/list">게시판</a>
 	</li>
 	
+	
+	<c:if test="${sessionScope.loginok!=null and sessionScope.myid=='admin' }">
 	<li>
 		<a href="${root }/member/list">회원목록</a>
 	</li>
+	</c:if>
 	
+	
+	<!--로그인  -->
+	<c:if test="${sessionScope.loginok==null}">	
 	<li>
 		<a href="${root }/login/main">로그인</a>
 	</li>
-		
+	</c:if>
+	
+	<!--로그아웃 -->
+	<c:if test="${sessionScope.loginok!=null}">	
+	<li>
+		<a href="${root }/login/main">로그아웃</a>
+	</li>
+	</c:if>
+	
+	<!-- 회원가입  -->
+	<c:if test="${sessionScope.loginok==null}">	
 	<li>
 		<a href="${root }/member/form">회원가입</a>
 	</li>
-			
+	</c:if>	
+	
 	<li>
 		<a href="${root }/member/myinfo">나의정보</a>
 	</li>

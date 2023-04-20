@@ -105,4 +105,5 @@ public class MemberController {
 		
 		return "/member/myinfo";
 	}
+	
 }

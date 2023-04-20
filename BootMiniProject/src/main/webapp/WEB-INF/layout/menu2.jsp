@@ -25,14 +25,14 @@
 	}
 	
 	ul.menu li{
-	width:120px;
+	width:160px;
 	float:left;
 	border: none;
 	height: 50px;
 	line-height:50px;
-	margin-right:10px;
 	text-align:center;
-	font-size: 20px;
+	font-size: 16px;
+	font-weight:bold;
 	background-color: lightblue;
 	color:#fff;
 	cursor:pointer;
@@ -43,7 +43,7 @@
 	text-align:center;
 	font-size: 20px;
 	background-color:#FFB6C1;
-	font-weight:bold;
+	font-weight:900;
 	color:#000;
 	cursor:pointer;
 	}

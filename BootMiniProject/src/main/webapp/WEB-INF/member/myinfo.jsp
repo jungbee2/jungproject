@@ -16,7 +16,11 @@
 <body>
 <div style="margin:200px;">
 	<table class="table table-bordered">
+	
 		<c:forEach var="dto" items="${list }">
+		
+		<c:if test="${sessionScope.loginok!=null and sessionScope.myid==dto.id }">
+		
 			<tr>
 				<td style="width:250px;" align="center" rowspan="5">
 					<img alt="이미지" src="../photo/${dto.photo }" width="220"
@@ -37,6 +41,7 @@
 					onclick="location.href=''">삭제</button>
 				</td>
 			</tr>
+			
 			<tr>
 				<td style="width:300px;">아이디: ${dto.id }</td>
 			</tr>
@@ -50,6 +55,7 @@
 			<tr>
 				<td style="width:300px;">주소: ${dto.addr }</td>
 			</tr>
+			</c:if>
 		</c:forEach>
 	</table>
 </div>

@@ -15,9 +15,13 @@
 </head>
 <body>
 <c:set var="root" value="<%=request.getContextPath() %>"/>
-<img alt="" src="${root }/image/banner1.jpg" style="width:1100px;"><br><br>
-<img alt="" src="${root }/image/banner2.jpg" style="width:1100px;"><br><br>
-<img alt="" src="${root }/image/banner3.jpg" style="width:1100px;"><br><br>
-<!-- <h3><b>MainPage입니다.</b></h3> -->
+<body>
+<div style="marign-left:100px; margin-top:100px;">
+<img alt="logoutimg" src="${root }/image/logout.png" width="150" align="left" hspace="20">
+<br><br><br><br><br><br><br><br><br><br>
+<!-- id통한 이름받아서 표시 -->
+<b>${name }님 로그인중</b><br><br><br>
+<button type="button" class="btn btn-danger" onclick="location.href='logoutprocess'">로그아웃</button>
+</div>
 </body>
 </html>

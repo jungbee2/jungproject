@@ -14,6 +14,8 @@
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
+<c:set var="root" value="<%=request.getContextPath() %>"/>
+<c:if test="${sessionScope.loginok!=null and sessionScope.myid=='admin' }">
 <h2 class="alert alert-info">총 ${count }명의 회원이 있습니다.</h2>
 <br>
 <table class="table table-bordered" style="width: 1000px;">
@@ -25,7 +27,8 @@
 			<th style="width: 120px;">핸드폰</th>
 			<th style="width: 350px;">주소</th>
 			<th style="width: 200px;">이메일</th>
-			<th style="width: 60px;"><input type="checkbox" id="allcheck">삭제</th>
+			<th style="width: 30px;">
+			<input type="checkbox" id="allcheck"></th>
 		</tr>
 		
 		<c:forEach var="dto" items="${list }" varStatus="i">
@@ -36,12 +39,60 @@
 				<td>${dto.hp }</td>
 				<td>${dto.addr }</td>
 				<td>${dto.email }</td>
-				<td><input type="checkbox" class="del" num=${dto.num }></td>
+				<c:if test="${dto.id!='admin'}">
+				<td><input type="checkbox" class="del" name="chk"  num="${dto.num }"></td>
+				</c:if>
 			</tr>
 		</c:forEach>
 	</table>
 	
-	<button type="button" class="btn btn-danger" 
-	style="margin-left:920px;" id="btnmemberdel">DELETE</button>
+	<button type="button" class="btn btn-danger" style="margin-left:920px;" id="btnmemberdel">DELETE</button>
+	
+</c:if>
+
+<!-- btnmemberdel ajax 스크립트 처리  -->
+	<script type="text/javascript">
+		
+		//로그아웃
+		$("#btnmemberdel").click(function(){
+			
+			$(".del:checked").each(function(i,ele){
+				
+				var num=$(ele).attr("num");
+				//console.log(num);
+				/* var root='${root}'; */
+				// 경로가 같아서 지울 수 있다.
+				
+				$.ajax({
+					type:"get",
+					dataType:"html",
+					url:"btnmemberdel", //root+"/member/dtnmemberdel"
+					data:{"num":num},
+					success:function(){
+						location.reload();
+					}
+				});
+			});
+			
+		});
+		
+	</script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#allcheck").click(function() {
+				if($("#allcheck").is(":checked")) $("input[name=chk]").prop("checked", true);
+				else $("input[name=chk]").prop("checked", false);
+			});
+			
+			$("input[name=chk]").click(function() {
+				var total = $("input[name=chk]").length;
+				var checked = $("input[name=chk]:checked").length;
+				
+				if(total != checked) $("#allcheck").prop("checked", false);
+				else $("#allcheck").prop("checked", true); 
+			});
+		});
+	</script>
 </body>
 </html>

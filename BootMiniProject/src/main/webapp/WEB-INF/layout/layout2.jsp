@@ -34,7 +34,7 @@ div.layout div.title {
 div.layout div.menu {
 	position:absolute;
 	top: 150px;
-	left:250px;
+	left:0px;
 	height: 100px;
 }
 

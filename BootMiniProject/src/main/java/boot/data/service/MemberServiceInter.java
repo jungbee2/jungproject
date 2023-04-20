@@ -10,4 +10,8 @@ public interface MemberServiceInter {
 	public List<MemberDto> getAllMembers();
 	public void insertMember(MemberDto dto);
 	public int getSearchId(String id);
+	public String getName(String id);
+	public int LoginIdPassCheck(String id, String pass);
+	public MemberDto getDataById(String id);
+	public void deleteMember(String num);
 }

@@ -17,4 +17,22 @@
 		select count(*) from bootmember where id=#{id}
 	</select>
 	
+	<!-- id에 따른 이름 반환 -->
+	<select id="getName" parameterType="String" resultType="String">
+		select name from bootmember where id=#{id} 
+	</select>
+	
+	<!-- id 와 pass 파라메타로 넘겨서(map) 1 or 0 -->
+	<select id="LoginIdPassCheck" parameterType="Map" resultType="int">
+		select count(*) from bootmember where id=#{id} and pass=#{pass}
+	</select>
+	
+	<select id="getDataById" parameterType="String" resultType="MemberDto">
+		select * from bootmember where id=#{id}
+	</select>
+	
+	<!-- member삭제 -->
+	<delete id="deleteMember" parameterType="String">
+		delete from bootmember where num=#{num}
+	</delete>
 </mapper>

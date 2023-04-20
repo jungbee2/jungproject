@@ -14,10 +14,9 @@
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
-<c:set var="root" value="<%=request.getContextPath() %>"/>
-<img alt="" src="${root }/image/banner1.jpg" style="width:1100px;"><br><br>
-<img alt="" src="${root }/image/banner2.jpg" style="width:1100px;"><br><br>
-<img alt="" src="${root }/image/banner3.jpg" style="width:1100px;"><br><br>
-<!-- <h3><b>MainPage입니다.</b></h3> -->
+	<script type="text/javascript">
+		alert("로그인 실패!!");
+		history.back();
+	</script>
 </body>
 </html>
