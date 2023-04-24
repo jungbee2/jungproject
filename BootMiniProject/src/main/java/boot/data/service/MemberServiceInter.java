@@ -6,7 +6,6 @@ import boot.data.dto.MemberDto;
 
 public interface MemberServiceInter {
 
-	
 	public List<MemberDto> getAllMembers();
 	public void insertMember(MemberDto dto);
 	public int getSearchId(String id);
@@ -14,4 +13,7 @@ public interface MemberServiceInter {
 	public int LoginIdPassCheck(String id, String pass);
 	public MemberDto getDataById(String id);
 	public void deleteMember(String num);
+	public void updatePhoto(String num, String photo);
+	public void updateMember(MemberDto dto);
+	public MemberDto getDataByNum(String num);
 }

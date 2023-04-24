@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import boot.data.dto.IpgoDto;
 import boot.data.dto.MemberDto;
 import boot.data.service.MemberService;
 
@@ -106,4 +105,57 @@ public class MemberController {
 		return "/member/myinfo";
 	}
 	
+	//info에서 사진만 수정
+	@PostMapping("/member/updatephoto")
+	@ResponseBody
+	public void photoUpload(String num,MultipartFile photo,
+			HttpSession session)
+	{
+		//업로드될 경로구하기
+		String path=session.getServletContext().getRealPath("/photo");
+		
+		//파일명 구하기
+		SimpleDateFormat sdf= new SimpleDateFormat("yyyyMMddHHmmss");
+		
+		String fileName="f_"+sdf.format(new Date())+photo.getOriginalFilename();
+		
+		try {
+			photo.transferTo(new File(path+"\\"+fileName));
+			
+			
+			//db사진 수정
+			service.updatePhoto(num, fileName); //db사진수정
+			session.setAttribute("loginphoto", fileName); //세션의 사진변경
+		} catch (IllegalStateException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	//update
+		@PostMapping("/member/infoupdate")
+		@ResponseBody
+		public void updateinfo(@ModelAttribute MemberDto dto)
+		{
+			service.updateMember(dto);
+		}
+		
+		//수정폼에 출력할 데이터 반환_json반환
+		@GetMapping("/member/updateform")
+		@ResponseBody
+		public MemberDto getData(String num)
+		{
+			return service.getDataByNum(num);
+		}
+		
+		/*
+		 * //수정
+		 * 
+		 * @PostMapping("/member/update") public void update(MemberDto dto, HttpSession
+		 * session) { service.updateMember(dto);
+		 * 
+		 * //세션에 저장된 이르ㅁ }
+		 */
+
 }

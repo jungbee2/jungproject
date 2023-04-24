@@ -12,6 +12,64 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Gamja+Flower&family=Single+Day&family=Jua&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+<!--t_ver  -->
+<!--  <script type="text/javascript">
+
+		$(function() {
+
+			//전체선택하면 체크박스 선택 해제
+			$("#allcheck").click(function() {
+
+				//체크값을 얻는다
+				var chk = $(this).is(":checked");
+				console.log(chk);
+
+				//전체 체크 값을 아래의 체크에 일괄전달
+				$(".del").prop("checked", chk);
+
+			});
+
+			$("#btnmemberdel").click(function() {
+
+				//체크한 상품 갯수 구하기
+				var cnt = $(".del:checked").length;
+				//alert(cnt);
+
+				if (cnt == 0) {
+					alert("먼저 삭제번호를 선택해주세요");
+					return; //종료
+				}
+				
+
+				$(".del:checked").each(function(i, elt) {
+
+					var num = $(this).attr("num");
+					console.log(num); //선택한 num만 나오는지 확인할 것
+
+					//삭제 ajax
+					$.ajax({
+						type : "get",
+						dataType : "html",
+						url : "btnmemberdel",
+						data : {
+							"num" : num
+						},
+						success : function() {
+
+							alert("삭제되었습니다.");
+
+							//새로고침
+							location.reload();
+
+						}
+					});
+
+				});				
+				
+			});
+		});
+	</script>  -->
 </head>
 <body>
 <c:set var="root" value="<%=request.getContextPath() %>"/>
@@ -46,12 +104,13 @@
 		</c:forEach>
 	</table>
 	
-	<button type="button" class="btn btn-danger" style="margin-left:920px;" id="btnmemberdel">DELETE</button>
+	<button type="button" class="btn btn-danger" 
+	style="margin-left:920px;" id="btnmemberdel">DELETE</button>
 	
 </c:if>
 
 <!-- btnmemberdel ajax 스크립트 처리  -->
-	<script type="text/javascript">
+	 <script type="text/javascript">
 		
 		//로그아웃
 		$("#btnmemberdel").click(function(){
@@ -76,9 +135,9 @@
 			
 		});
 		
-	</script>
+	</script> 
 	
-	<script type="text/javascript">
+ 	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#allcheck").click(function() {
 				if($("#allcheck").is(":checked")) $("input[name=chk]").prop("checked", true);
@@ -93,6 +152,6 @@
 				else $("#allcheck").prop("checked", true); 
 			});
 		});
-	</script>
+	</script> 
 </body>
 </html>

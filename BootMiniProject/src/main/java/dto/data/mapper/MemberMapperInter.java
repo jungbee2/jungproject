@@ -9,7 +9,6 @@ import boot.data.dto.MemberDto;
 
 @Mapper
 public interface MemberMapperInter {
-
 	
 	public List<MemberDto> getAllMembers();
 	public void insertMember(MemberDto dto);
@@ -18,4 +17,7 @@ public interface MemberMapperInter {
 	public int LoginIdPassCheck(Map<String, String> map);
 	public MemberDto getDataById(String id);
 	public void deleteMember(String num);
+	public void updatePhoto(Map<String, String> map);
+	public void updateMember(MemberDto dto);
+	public MemberDto getDataByNum(String num);
 }
