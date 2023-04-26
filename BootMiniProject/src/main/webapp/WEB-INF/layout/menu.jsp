@@ -73,6 +73,9 @@
 	<li>
 		<a href="${root }/board/list">게시판</a>
 	</li>
+	<li>
+		<a href="${root }/smart/list">스마트게시판</a>
+	</li>
 	
 	
 	<c:if test="${sessionScope.loginok!=null and sessionScope.myid=='admin' }">

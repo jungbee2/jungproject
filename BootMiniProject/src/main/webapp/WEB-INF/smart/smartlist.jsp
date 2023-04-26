@@ -14,19 +14,20 @@
 <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
+<h3 class="alert alert-info"> 총 ${totalCount }개의 상품이 등록 되었습니다.</h3>
 
-<c:if test="${sessionScope.loginok!=null }">
-	<button type="button" class="btn btn-default" style="width:100px; margin-left:900px;" onclick="location.href='form'">글쓰기</button>
-</c:if>
-<br><br>
+
+<button type="button" class="btn btn-info" onclick="location.href='form'">상품추가</button>
+
 
 <table class="table table-info" style="width:1000px;">
+<caption><b>상품목록</b></caption>
 	<tr bgcolor="#ffc0cb">
-		<th style="text-align:center;" width="60">번호</th>
-		<th style="text-align:center;" width="160">작성자</th>
-		<th style="text-align:center;" width="460">제목</th>
-		<th style="text-align:center;" width="80">조회</th>
-		<th style="text-align:center;" width="160">등록일</th>
+		<th style="text-align:center;" width="80">번호</th>
+		<th style="text-align:center;" width="300">상품명</th>
+		<th style="text-align:center;" width="200">색상</th>
+		<th style="text-align:center;" width="120">가격</th>
+		<th style="text-align:center;" width="160">입고일</th>
 	</tr>
 	
 	<c:if test="${totalCount==0 }">
@@ -36,40 +37,22 @@
 			</td>
 		</tr>
 	</c:if>
-	
+ 	
 	<c:if test="${totalCount>0 }">
 				<c:forEach var="a" items="${list }">
 				<tr>
-					<td align="center">${no }</td>
+					<td>${no }</td>
 					<c:set var="no" value="${no-1 }"/>
-					
-					<%-- 
-					<td align="center">${a.num }</td> --%>
-					<td align="center">${a.name }</td>
-					
-					<td><a href="content?num=${a.num }&currentPage=${currentPage}" style="color:#000;">
-					${a.subject }
-					
-					<c:if test="${a.uploadfile!='no' }">
-					<span class="glyphicon glyphicon-file" style="color:gray;"></span>
-					</c:if>
-					
-					<c:if test="${a.acount>0 }">
-					<span><a href="content?num=${a.num }&currentPage=${currentPage}"  style="color:red;">[${a.acount}]</a></span>
-					</c:if>
-					
-					</a>	
-					</td>
-					<td align="center">${a.readcount }</td>
-					<td align="center">${a.writeday }</td>
+					<td align="center"><a href="detail?num=${a.num }&currentPage=${currentPage}">${a.sangname }</a></td>
+					<td align="center"><div style="width:20px; height:20px; border:2px solid lightgray; border-radius: 100px; background-color:${a.color };"></div></td>
+					<td align="center">${a.price }</td>
+					<td align="center">${a.ipgoday }</td>
 				</tr>
 
 			</c:forEach>
-			</c:if>
+			</c:if> 
 			
 </table>
-
-
 
 
 		<!-- 페이징 -->

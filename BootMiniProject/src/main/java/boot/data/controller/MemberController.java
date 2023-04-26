@@ -105,6 +105,55 @@ public class MemberController {
 		return "/member/myinfo";
 	}
 	
+
+	//info에서 사진만 수정
+	@PostMapping("/member/updatephoto")
+	@ResponseBody
+	public void photoUpload(String num,MultipartFile photo,
+			HttpSession session)
+	{
+		//업로드될 경로구하기
+		String path=session.getServletContext().getRealPath("/photo");
+		
+		//파일명구하기
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMddHHmmss");
+		String fileName="f_"+sdf.format(new Date())+photo.getOriginalFilename();
+		
+		try {
+			photo.transferTo(new File(path+"\\"+fileName));
+			
+			service.updatePhoto(num, fileName); //db사진 수정
+			session.setAttribute("loginphoto", fileName);  //세션의 사진변경
+			
+		} catch (IllegalStateException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	//수정폼에 출력할 데이터 반환
+	@GetMapping("/member/updateform")
+	@ResponseBody
+	public MemberDto getData(String num)
+	{
+		return service.getDataByNum(num);
+	}
+	
+	
+	
+	//수정
+	@PostMapping("/member/update")
+	@ResponseBody
+	public void update(MemberDto dto,HttpSession session)
+	{
+		service.updateMember(dto);
+		
+		//세션에 저장된 이름 변경
+		session.setAttribute("loginname", dto.getName());
+	}
+	
+/*	
 	//info에서 사진만 수정
 	@PostMapping("/member/updatephoto")
 	@ResponseBody
@@ -149,13 +198,13 @@ public class MemberController {
 			return service.getDataByNum(num);
 		}
 		
-		/*
-		 * //수정
-		 * 
-		 * @PostMapping("/member/update") public void update(MemberDto dto, HttpSession
-		 * session) { service.updateMember(dto);
-		 * 
-		 * //세션에 저장된 이르ㅁ }
+		
+		  //수정
+		  
+		  //@PostMapping("/member/update") public void update(MemberDto dto, HttpSession
+		 // session) { service.updateMember(dto);
+		  
+		  //세션에 저장된 이르ㅁ }
 		 */
 
 }

@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import boot.data.dto.BoardDto;
+import boot.data.service.BoardAnswerService;
 import boot.data.service.BoardService;
 import boot.data.service.MemberService;
 
@@ -28,6 +29,9 @@ public class BoardController {
 	
 	@Autowired
 	MemberService mservice;
+	
+	@Autowired
+	BoardAnswerService aservice;
 	
 	/*
 	 * @GetMapping("/board/list") public ModelAndView boardlist() {
@@ -51,7 +55,7 @@ public class BoardController {
         int startPage; //각 블럭의 시작페이지
         int endPage; //각 블럭의 끝페이지
         int start;    //각 페이지의 시작번호
-        int perPage=5; //한 페이지에 보여질 글의 갯수
+        int perPage=10; //한 페이지에 보여질 글의 갯수
         int perBlock=5; //한 블럭당 보여지는 페이지 갯수
     
              
@@ -71,6 +75,14 @@ public class BoardController {
         //각 페이지에서 필요한 게시글 가져오기
         List<BoardDto> list=service.getList(start, perPage);
 
+        
+       //댓글갯수
+        for(BoardDto d:list)
+        {
+        	d.setAcount(aservice.getAllAnswers(d.getNum()).size());
+        	System.out.println(aservice.getAllAnswers(d.getNum()).size());
+        }
+        
         //각 페이지에 출력할 시작번호
         int no=totalCount-(currentPage-1)*perPage;
         
